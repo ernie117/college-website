@@ -43,11 +43,20 @@
   font-size: xx-large;
 }
 
+.start-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 250px;
+  font-size: xx-large;
+}
+
 .center-table {
   margin-left: auto;
   margin-right: auto;
   background-color: #D3D3D3;
-  border: 2px solid black;
+  border-spacing: 0;
   background-color: rgba(211, 211, 211, 0.7);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -56,11 +65,10 @@
   width: 500px;
   font-size: larger;
   padding: 20px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .prod-table-div {
-  /*background-color: #D3D3D3;*/
   color: black;
   margin: 30px 50px;
 }
@@ -70,8 +78,7 @@
 }
 
 .prod-tab-d {
-  padding: 20px;
-  border: 2px solid black;
+  border: 1px solid black;
   font-size: larger;
 }
 
@@ -79,3 +86,12 @@
   width: 50%;
   height: 50%;
 }
+ .img-buttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 150px;
+  font-size: medium;
+ }
