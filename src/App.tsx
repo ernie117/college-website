@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import tablet from './ipad.png';
 import './App.css';
+import ProductTable from "./ProductTable";
 
 const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    const [state, setState] = useState<boolean>(false);
+
+    if (!state) {
+        return (
+            <div className={"img-div"}>
+                <h1 className={"title-page"}>Tablet Shop</h1>
+                <img src={tablet} alt={""} className="center-img"/>
+                <div>
+                    <button
+                        className={"start-button"}
+                        onClick={() => setState(true)}>
+                        Enter
+                    </button>
+                </div>
+            </div>
+        );
+    } else {
+        return <ProductTable />
+    }
+};
 
 export default App;
