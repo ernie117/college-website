@@ -8,12 +8,12 @@ const DescriptionComponent: React.FC<{ description: string }> = (props) => {
 
     useEffect(() => {
         setData(props.description.split('|'));
-    }, []);
+    }, [props.description]);
 
     return (
         <>
             {data.map((datum: string) => {
-                return <pre className={"desc-pre"}>{datum}</pre>
+                return <pre key={data.indexOf(datum)} className={"desc-pre"}>{datum}</pre>
             })}
         </>
     );

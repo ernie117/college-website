@@ -15,13 +15,16 @@ const ProductTable: React.FC = () => {
             <div className={"prod-table-div"}>
                 <h1 className={"prod-table-header"}>Products</h1>
                 <table className={"center-table"}>
+                    <thead>
                     <ProductTableHeader/>
+                    </thead>
                     <tbody>
                     {Constants.PRODUCTS.map((product: string[]) => {
                         return <ProductTableRow
-                                    name={product[0]}
-                                    description={product[1]}
-                                    img={product[2]}/>
+                            key={product[0]}
+                            name={product[0]}
+                            description={product[1]}
+                            img={product[2]}/>
                     })}
                     </tbody>
                 </table>
