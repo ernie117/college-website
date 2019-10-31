@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import pro from './ipad-pro.jpg'
 import samsung from './samsung.jpg'
@@ -7,8 +7,6 @@ import Popup from "reactjs-popup";
 
 
 const ProductTable: any = () => {
-
-    const [state, setState] = useState<boolean>(false);
 
     const showPopup = (tabletImage: any) => {
         return (
@@ -26,7 +24,7 @@ const ProductTable: any = () => {
 
     return (
         <div className={"prod-table-div"}>
-            <h1 style={{color: "white"}}>Products</h1>
+            <h1 style={{color: "white", textAlign: "center"}}>Products</h1>
             <table className={"center-table"}>
                 <th className={"th-prod"}><u>Product</u></th>
                 <th className={"th-prod"}><u>Description</u></th>
