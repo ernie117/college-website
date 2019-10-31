@@ -5,6 +5,7 @@ import samsung from './samsung.jpg'
 import surface from './pro.jpg'
 import Popup from "reactjs-popup";
 import App from "./App";
+import ProductTableHeader from "./ProductTableHeader";
 
 
 const ProductTable: any = () => {
@@ -30,9 +31,7 @@ const ProductTable: any = () => {
             <div className={"prod-table-div"}>
                 <h1 style={{color: "white", textAlign: "center"}}>Products</h1>
                 <table className={"center-table"}>
-                    <th className={"th-prod"}><u>Product</u></th>
-                    <th className={"th-prod"}><u>Description</u></th>
-                    <th className={"th-prod"}><u>Image</u></th>
+                    <ProductTableHeader/>
                     <tbody>
                     <tr className={"prod-tab-row"}>
                         <td className={"prod-tab-d"}><u>Apple iPad Pro 11</u></td>

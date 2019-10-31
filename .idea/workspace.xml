@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67433feb-ec3a-4b47-a88f-bbc1e6bedb92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ProductTableHeader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductTable.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572515969543</updated>
-      <workItem from="1572515970923" duration="13270000" />
+      <workItem from="1572515970923" duration="14162000" />
     </task>
     <servers />
   </component>
