@@ -1,97 +1,118 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+    height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #09d3ac;
+    color: #09d3ac;
 }
 
 .title-page {
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 .center-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 800px;
-  width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: 550px;
 }
 
 .start-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 200px;
-  font-size: xx-large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 200px;
+    font-size: xx-large;
 }
 
-.start-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 250px;
-  font-size: xx-large;
+.go-home-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 230px;
+    font-size: xx-large;
+    margin-top: 10px;
+    background-color: #D3D3D3;
+    border-color: darkslategrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .center-table {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #D3D3D3;
-  border-spacing: 0;
-  background-color: rgba(211, 211, 211, 0.7);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0.5em;
 }
 
 .th-prod {
-  width: 500px;
-  font-size: larger;
-  padding: 20px;
-  border: 1px solid black;
+    width: 500px;
+    font-size: larger;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: #D3D3D3;
+    background-color: rgba(211, 211, 211, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .prod-table-div {
-  color: black;
-  margin: 30px 50px;
+    color: black;
+    margin: 30px 50px;
 }
 
 .prod-tab-row {
-  text-align: center;
+    text-align: center;
+    background-color: #D3D3D3;
+    background-color: rgba(211, 211, 211, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .prod-tab-d {
-  border: 1px solid black;
-  font-size: larger;
+    font-size: larger;
+    border-spacing: 50px;
 }
 
 .tab-img {
-  width: 50%;
-  height: 50%;
+    float: left;
+    width: 50%;
+    height: 50%;
 }
- .img-buttons {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px;
-  height: 30px;
-  width: 150px;
-  font-size: medium;
- }
+
+.img-buttons {
+    display: block;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    margin: 25px auto 5px;
+}
+
+.prod-table-header {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.desc-pre {
+    margin: 0;
+    font-size: x-large;
+}
