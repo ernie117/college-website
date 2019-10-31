@@ -41,6 +41,11 @@
     height: 50px;
     width: 200px;
     font-size: xx-large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.start-button:active {
+    transform: translateY(3px);
 }
 
 .go-home-button {
@@ -54,6 +59,11 @@
     background-color: #D3D3D3;
     border-color: darkslategrey;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: fadeIn 2s;
+}
+
+.go-home-button:active {
+    transform: translateY(3px);
 }
 
 .center-table {
@@ -83,6 +93,8 @@
     background-color: #D3D3D3;
     background-color: rgba(211, 211, 211, 0.6);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: slide;
+    animation-duration: 1s;
 }
 
 .prod-tab-d {
@@ -104,6 +116,10 @@
     margin: 25px auto 5px;
 }
 
+.img-buttons:active {
+    transform: translateY(2px);
+}
+
 .prod-table-header {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: white;
@@ -115,4 +131,22 @@
 .desc-pre {
     margin: 0;
     font-size: x-large;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
 }
