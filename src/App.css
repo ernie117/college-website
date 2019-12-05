@@ -120,6 +120,30 @@
     transform: translateY(2px);
 }
 
+.right-align-cart {
+    overflow: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.cart-small-icon {
+    float: right;
+    height: 40px;
+    width: 40px;
+    background-color: #D3D3D3;
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+.cart-icon-p {
+    margin: 0;
+    width: 15px;
+    float: right;
+    font-size: 20px;
+    background-color: #D3D3D3;
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
 .prod-table-header {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: white;
@@ -128,9 +152,38 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.cart-button {
+    margin: 0;
+    float: right;
+    height: 25px;
+}
+
+.cart-product {
+    background-color: rgba(211, 211, 211, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart-full-button {
+    text-align: center;
+}
+
 .desc-pre {
     margin: 0;
     font-size: x-large;
+}
+
+.cart-item-p {
+    height: 55px;
+    font-size: 45px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.main-prod-container {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes slide {

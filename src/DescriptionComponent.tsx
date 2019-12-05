@@ -11,11 +11,13 @@ const DescriptionComponent: React.FC<{ description: string }> = (props) => {
     }, [props.description]);
 
     return (
-        <>
+        <div>
             {data.map((datum: string) => {
-                return <pre key={data.indexOf(datum)} className={"desc-pre"}>{datum}</pre>
+                return <div>
+                    <pre key={data.indexOf(datum)} className={"desc-pre"}>{datum}</pre>
+                </div>
             })}
-        </>
+        </div>
     );
 };
 

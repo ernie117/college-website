@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67433feb-ec3a-4b47-a88f-bbc1e6bedb92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CartItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainProductComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingCartFullComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingCartSmallComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DescriptionComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/DescriptionComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductTableRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductTableRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +33,12 @@
   </component>
   <component name="ProjectId" id="1SxrDk0tilLhDyBMRqi3mcnUxVG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -33,18 +48,6 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -61,6 +64,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,7 +87,9 @@
       <option name="presentableId" value="Default" />
       <updated>1572515969543</updated>
       <workItem from="1572515970923" duration="14436000" />
-      <workItem from="1572538264358" duration="11353000" />
+      <workItem from="1572538264358" duration="11449000" />
+      <workItem from="1575533161346" duration="19000" />
+      <workItem from="1575533188353" duration="18368000" />
     </task>
     <servers />
   </component>
@@ -91,5 +108,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="528" y="231" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575533175570">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="528" y="231" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.947@0.23.1680.947" timestamp="1575533175570" />
+    <state width="1659" height="247" key="GridCell.Tab.0.bottom" timestamp="1575548205188">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575548205188" />
+    <state width="1379" height="201" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575533329450" />
+    <state width="1659" height="247" key="GridCell.Tab.0.center" timestamp="1575548205187">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575548205187" />
+    <state width="1379" height="201" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575533329449" />
+    <state width="1659" height="247" key="GridCell.Tab.0.left" timestamp="1575548205185">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575548205185" />
+    <state width="1379" height="201" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575533329448" />
+    <state width="1659" height="247" key="GridCell.Tab.0.right" timestamp="1575548205187">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575548205187" />
+    <state width="1379" height="201" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575533329449" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1575542269715">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575542269715" />
   </component>
 </project>
