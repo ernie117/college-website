@@ -23,7 +23,9 @@ const MainProductComponent: React.FC<{name: string, description: string, image: 
                 <div className={"main-prod-container"}>
                     <h1>Price: £300</h1>
                 </div>
-                <button onClick={() => setShow(false)}>Return</button>
+                <div >
+                    <button className={"start-button"} onClick={() => setShow(false)}>Return</button>
+                </div>
             </div>
         );
     } else {
