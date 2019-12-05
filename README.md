@@ -2,3 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This code for the Level 3 Apprentice Web Development Exam.
 
+Look in the src folder to find the files written for the website
